@@ -1,0 +1,111 @@
+[{
+        "player_id": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm medium",
+        "base_price": 20000000,
+        "ipl_team": "Royal Challengers Bangalore",
+        "status": "retained"
+    },
+    {
+        "player_id": 2,
+        "name": "Rohit Sharma",
+        "country": "India",
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "base_price": 20000000,
+        "ipl_team": "Mumbai Indians",
+        "status": "retained"
+    },
+    {
+        "player_id": 3,
+        "name": "MS Dhoni",
+        "country": "India",
+        "role": "Wicketkeeper-Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "None",
+        "base_price": 15000000,
+        "ipl_team": "Chennai Super Kings",
+        "status": "retained"
+    },
+    {
+        "player_id": 4,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm fast",
+        "base_price": 15000000,
+        "ipl_team": "Mumbai Indians",
+        "status": "retained"
+    },
+    {
+        "player_id": 5,
+        "name": "Ravindra Jadeja",
+        "country": "India",
+        "role": "All-rounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Left-arm orthodox",
+        "base_price": 16000000,
+        "ipl_team": "Chennai Super Kings",
+        "status": "retained"
+    },
+    {
+        "player_id": 6,
+        "name": "Jos Buttler",
+        "country": "England",
+        "role": "Wicketkeeper-Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "None",
+        "base_price": 20000000,
+        "ipl_team": "Rajasthan Royals",
+        "status": "auction"
+    },
+    {
+        "player_id": 7,
+        "name": "Glenn Maxwell",
+        "country": "Australia",
+        "role": "All-rounder",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "base_price": 20000000,
+        "ipl_team": "Royal Challengers Bangalore",
+        "status": "auction"
+    },
+    {
+        "player_id": 8,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "role": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "base_price": 15000000,
+        "ipl_team": "Free Agent",
+        "status": "auction"
+    },
+    {
+        "player_id": 9,
+        "name": "Ben Stokes",
+        "country": "England",
+        "role": "All-rounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm fast-medium",
+        "base_price": 20000000,
+        "ipl_team": "Free Agent",
+        "status": "auction"
+    },
+    {
+        "player_id": 10,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "role": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Legbreak googly",
+        "base_price": 20000000,
+        "ipl_team": "Gujarat Titans",
+        "status": "retained"
+    }
+]
