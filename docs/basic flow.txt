@@ -1,0 +1,47 @@
+user flow for ipl-aution-website
+
+user opens main page 
+	       |
+	       |
+               ---> login/sign in
+               ---> sign up
+
+sign up page:
+
+mandatory options:
+user name [unique and should memorize] [case sensitive]
+password [follow standard password requirements]
+repeat password
+
+optional
+Name: 
+phno:
+mail:
+fav ipl team:
+fav player:
+etc
+
+
+login page after successful authentication:
+mandatory:
+create or join a lobby
+
+[after joining the lobby franchise allocation should be random] and give option to creater of lobby to allocate them manually.
+
+optional:
+
+make friend users and notify them through mail when ever a new lobby is created
+
+Lobby waiting space:
+
+should show users and their allocated franchise name symbol
+
+option saying ready for all the users and start option for the lobby creater
+
+Auction play area:
+
+left part should have only the current players team and details, users franchise website link 
+
+center panel should have current bidding player details with all the nessacary stats and details
+
+rest space should be used for other franchises and their available purse and slot details
