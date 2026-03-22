@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Background - RCB */
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #8B0000, #000000);
+}
+
+
+/* Card */
+
+.login-box {
+    background: #111;
+    padding: 40px;
+    border-radius: 18px;
+    width: 360px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+    color: white;
+}
+
+
+/* Title */
+
+.login-box h2 {
+    margin-bottom: 5px;
+    color: gold;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+
+/* Inputs */
+
+.input-group {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    outline: none;
+    font-size: 14px;
+    background: #222;
+    color: white;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: gold;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
+}
+
+
+/* Eye Icon */
+
+.password-group {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: gold;
+}
+
+.eye-icon:hover {
+    color: #ffd700;
+}
+
+
+/* Error */
+
+.error {
+    color: #ff4d4d;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: gold;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffd700;
+}
+
+
+/* Signup link */
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link span,
+.signup-link a {
+    color: gold;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

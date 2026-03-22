@@ -1,23 +1,21 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
-    return (
-        <div className="App">
-            <Login />
-        </div>
-    );
-}
-
-function Login() {
-    return (
-        <div id="log_in">
-            <h1>Log In</h1>
-            <input type="text" placeholder="Username" />
-            <br />
-            <input type="password" placeholder="Password" />
-            <br />
-            <button>Log In</button>
-        </div>
+    return ( <
+        BrowserRouter >
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Login / > }
+        /> <
+        Route path = "/signup"
+        element = { < Signup / > }
+        /> <
+        /Routes> <
+        /BrowserRouter>
     );
 }
 

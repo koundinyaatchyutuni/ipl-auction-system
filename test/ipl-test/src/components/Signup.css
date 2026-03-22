@@ -1,0 +1,133 @@
+/* Background - MI Theme */
+
+.signup-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #004BA0, #87CEFA);
+}
+
+
+/* Card */
+
+.signup-box {
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+/* Title */
+
+.signup-box h2 {
+    color: #004BA0;
+    margin-bottom: 10px;
+}
+
+
+/* Input group */
+
+.input-group {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+
+/* Inputs */
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+/* Focus effect */
+
+.input-group input:focus {
+    border-color: #004BA0;
+    box-shadow: 0 0 8px rgba(0, 75, 160, 0.3);
+}
+
+
+/* Eye icon */
+
+.password-group {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #004BA0;
+}
+
+.eye-icon:hover {
+    color: #003080;
+}
+
+
+/* Button */
+
+.signup-box button {
+    width: 100%;
+    padding: 12px;
+    background: #004BA0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-box button:hover {
+    background: #003080;
+}
+
+
+/* Link */
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #004BA0;
+    font-weight: bold;
+}
+
+
+/* Error */
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
