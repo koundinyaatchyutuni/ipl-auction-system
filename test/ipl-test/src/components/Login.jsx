@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate(); // ✅ FIX
+
   const [form, setForm] = useState({
     username: "",
     password: ""
@@ -20,7 +22,7 @@ function Login() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // 🔥 prevents page reload
+    e.preventDefault();
 
     if (!form.username || !form.password) {
       setError("All fields are required");
@@ -30,7 +32,7 @@ function Login() {
     setError("");
     console.log("Login Data:", form);
 
-    // 👉 Later: API call
+    navigate("/main"); // ✅ redirect works now
   };
 
   return (
@@ -39,7 +41,6 @@ function Login() {
         <h2>IPL Auction</h2>
 
         <form onSubmit={handleSubmit}>
-          {/* Username */}
           <div className="input-group">
             <input
               type="text"
@@ -50,7 +51,6 @@ function Login() {
             />
           </div>
 
-          {/* Password */}
           <div className="input-group password-group">
             <input
               type={showPassword ? "text" : "password"}
@@ -68,14 +68,11 @@ function Login() {
             </span>
           </div>
 
-          {/* Error */}
           {error && <p className="error">{error}</p>}
 
-          {/* Button */}
           <button type="submit">Login</button>
         </form>
 
-        {/* Signup link */}
         <p className="signup-link">
           New here? <Link to="/signup">Sign up</Link>
         </p>
